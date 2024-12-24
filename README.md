@@ -19,7 +19,7 @@ Tech Stack used:
 - Data Manipulation
 - Pandas
 
-# Summary for install_dependencies python
+## Summary for install_dependencies python
 ### What it does:
 
 Automates the setup of a development environment. Installs system packages, Python dependencies, and VSCode extensions. Runs a Streamlit app with specific settings.
