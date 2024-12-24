@@ -19,6 +19,18 @@ Tech Stack used:
 - Data Manipulation
 - Pandas
 
+# Summary for install_dependencies python
+### What it does:
+
+Automates the setup of a development environment. Installs system packages, Python dependencies, and VSCode extensions. Runs a Streamlit app with specific settings.
+
+### Limitations:
+
+Does not handle containerization (Docker) or GitHub Codespaces setup. Cannot directly configure VSCode settings or themes. Limited to environments where Python and necessary tools (apt, pip, code) are already available.
+Does not handle network and port forwarding tasks, which are typically managed by a containerization tool or cloud platform. If you're working in a local development environment or using a Docker-based container, this script will help you automate much of the setup. However, for more advanced setups like GitHub Codespaces or Dockerized containers, you'll still need additional configuration files like devcontainer.json
+
+
+
 
 How It Works:
 1. Load a CSV data file containing relational data.
